@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="logo"><img src="pictures/logo.png" /></div>
+        <nav>
+          <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Test Scores</a></li>
+            <li><a href="#">Scoreboard</a></li>
+          </ul>
+        </nav>
+        <button class="signout-button">signout</button>
+      </aside>
+      <main class="main-content">
+        <header class="header">
+          <h1>Hi, Alyssa</h1>
+          <p>Ready to start your Entry Test journey?</p>
+          <div class="user-info">
+            <img src="pictures/student.png" alt="User Avatar" />
+            <span>Alyssa Jones</span>
+          </div>
+        </header>
+        <section class="overview">
+          <div class="stats">
+            <!-- Added six stat cards -->
+            <div class="stat">
+              <div class="stat-value">
+                <img src="pictures/bio.png" alt="User Avatar" />
+              </div>
+              <div class="stat-label">Biology</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">
+                <img src="pictures/phy.png" alt="User Avatar" />
+              </div>
+              <div class="stat-label">Physics</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">
+                <img src="pictures/chem.png" alt="User Avatar" />
+              </div>
+              <div class="stat-label">Chemistry</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">
+                <img src="pictures/eng.png" alt="User Avatar" />
+              </div>
+              <div class="stat-label">English</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">
+                <img src="pictures/logical.png" alt="User Avatar" />
+              </div>
+              <div class="stat-label">Logical Reasoning</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">
+                <img src="pictures/math.png" alt="User Avatar" />
+              </div>
+              <div class="stat-label">Maths</div>
+            </div>
+          </div>
+        </section>
+        <section class="projects">
+          <div class="project-card">
+            <img src="pictures/mockexam.png" alt="Project Thumbnail" />
+            <div class="project-details">
+              <h3>Mock Exam</h3>
+              <p>
+                Solve the MDCAT MCQS and make yourself ready for the real test.
+              </p>
+              <div class="project-info">
+                <span>MDCAT</span>
+                <span>200 Questions</span>
+              </div>
+            </div>
+            <button class="Attempt-button">Attempt</button>
+          </div>
+          <div class="project-card">
+            <img src="pictures/biomockexam.png" alt="Project Thumbnail" />
+            <div class="project-details">
+              <h3>Biology One Shot</h3>
+              <p>
+                Solve the BIOLOGY MCQS and make yourself ready for the real
+                test.
+              </p>
+              <div class="project-info">
+                <span>Biology</span>
+                <span>100 Questions</span>
+              </div>
+            </div>
+            <button class="Attempt-button">Attempt</button>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
